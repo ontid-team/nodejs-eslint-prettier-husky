@@ -1,0 +1,15 @@
+{
+  "name": "Project name",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "18" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["mads-hartmann.bash-ide-vscode"]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "shutdownAction": "stopContainer",
+  "remoteUser": "ontid"
+}

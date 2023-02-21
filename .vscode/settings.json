@@ -1,7 +1,9 @@
 {
-  "todohighlight.keywords": ["NO:", "IMPORTANT:"],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2
 }
